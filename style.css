@@ -1,0 +1,48 @@
+body{
+
+   font-family:Arial, Helvetica, sans-serif;
+   background-color: rgb(51, 153, 136);
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+}
+h2{
+   text-align: center;
+   color: #000;
+}
+form {
+   background-color: darkcyan;
+   border-radius: 8px;
+   padding: 20;
+   box-shadow: 0px 2px 6px rgba(red, green, blue, alpha);
+   width: 300px;
+}
+label{
+   display: block;
+   margin-bottom: spx;
+   font-weight: 10px;
+}
+input{
+   width:  100%;
+   color: cadetblue;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px 15px;
+   border-radius: 4px;
+}
+button{
+   background-color: chocolate;
+   color: darkgreen;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   width: 100%;
+}
+button:hover{
+   background-color: blueviolet;
+}
